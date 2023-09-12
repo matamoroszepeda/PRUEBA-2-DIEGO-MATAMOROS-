@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+body{
+	font-size: 14px;
+	font-family: 'Catamaran', 'sans serif';
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#hero h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 600;
+}
+
+#hero{
+	background-image: url("../img/bg-services-title.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: white;
+	padding: 130px 130px;
+}
+
+#services i{
+	font-size: 150px;
+	color: var(--color-iconos);
+}
+
+#services{
+	padding: 80px 90px;
+}
+
+#services h4{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--color-titulos);
+}
+
+#services p{
+	margin-top: 20px;
+}
+
+#services .check{
+	font-size: 40px;
+	color: var(--color-checks);
+}
+
+#pages h2{
+	color: var(--color-titulos);
+	text-align: center;
+	font-weight: 700;
+}
+
+#pages p{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#pages{
+	background-color: #f7f7f7;
+	padding: 100px 100px;
+}
+
+#pages h4{
+	margin-top: 40px;
+	font-weight: 700;
+	color: var(--color-titulos);
+	font-size: 20px;
+}
+
+
+
